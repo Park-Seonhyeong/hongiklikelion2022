@@ -138,6 +138,9 @@ html, body{
         font-size: 40px;
         color: orange;
     }
+    .indent{
+        display: inline;
+    }
 }
 
 .sns-img{
