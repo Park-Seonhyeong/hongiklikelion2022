@@ -14,6 +14,7 @@ html, body{
 
 .font-apply{
     font-family: 'Montserrat', 'Noto Sans';
+    font-weight: 400;
 }
 
 .nav{
@@ -78,7 +79,6 @@ html, body{
     color: orange;
 }
 
-
 .imo-wrap{
     display: flex;
     gap: 7px;
@@ -142,6 +142,12 @@ html, body{
     .indent{
         display: inline;
     }
+
+    .content-forlion{
+        margin-bottom: 0;
+        padding-bottom: 30px;
+        font-size: 9px;
+    }
 }
 
 .sns-img{
@@ -180,6 +186,7 @@ html, body{
 .content-forlion{
     margin-bottom: 0;
     padding-bottom: 30px;
+    font-size: 20px;
 }
 
 .forlion-image1{
