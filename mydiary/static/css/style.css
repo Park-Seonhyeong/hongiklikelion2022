@@ -5,7 +5,7 @@
     font-style: normal;
 }
 *{
-    font-family:'BMEuljiro10yearslater', sans-serif;
+    font-family:'Montserrat';
 }
 
 html, body{
@@ -128,14 +128,14 @@ html, body{
         padding-top: 120px;
     }
     .white-header{
-        font-size: 40px;
+        font-size: 37px;
     }
     .headers{
         display: block;
         gap: 15px;
     }
     .orange-header{
-        font-size: 40px;
+        font-size: 37px;
         color: orange;
     }
     .indent{
