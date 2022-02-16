@@ -21,10 +21,17 @@
   --weight-regular: 400;
 }
 
+html,
 body {
   margin: 0;
-  cursor: default;
+  padding: 0;
+  height: 100%;
   background-color: black;
+}
+
+.contents {
+  width: 100%;
+  height: 100%;
 }
 
 /* Typography */
@@ -53,7 +60,7 @@ h3 {
   font-weight: var(--weight-semi-bold);
 }
 
-/* 수평선 */
+/* �섑룊�� */
 hr {
   color: white;
   width: 90%;
@@ -76,11 +83,11 @@ hr {
   margin-left: auto;
   margin-right: auto;
 }
-footer{
+footer {
   text-align: left;
   color: gray;
 }
-.nav-item{
+.nav-item {
   font-size: 30px;
 }
 /* HACK YOUR LIFE! */
@@ -115,7 +122,7 @@ footer{
   text-align: center;
 }
 
-/* 모집 일정 */
+/* 紐⑥쭛 �쇱젙 */
 .schedule {
   display: table;
   margin: 0 auto;
@@ -141,4 +148,57 @@ span {
 
 span.list-bullet {
   font-size: 5px;
+}
+.navbar-toggler {
+  width: 100px;
+  height: 100px;
+}
+.navbar-toggler-icon {
+  width: 80px;
+  height: 80px;
+}
+
+@media only screen and (max-width: 600px) {
+  hr {
+    margin-bottom: 0px;
+  }
+  .big-title {
+    display: block;
+    margin: auto;
+  }
+
+  .like-lion-logo {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .text {
+    text-align: center;
+  }
+
+  h1 {
+    margin-bottom: 20px;
+  }
+
+  h3.content {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .textbox {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  .schedule {
+    margin-bottom: 50px;
+  }
+
+  .contents {
+    margin-bottom: 70px;
+  }
 }

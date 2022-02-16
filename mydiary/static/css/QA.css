@@ -7,12 +7,14 @@
 *{
     font-family: 'Noto Sans', sans-serif;
 }
-html, body{
-    margin: 0;
-    padding: 0;
-    height: 100%;
+
+
+
+body{
     background-color: black;
-}
+    position:static;
+  }
+
 .QA-word{
     display: flex;
     flex-direction: row;
@@ -48,16 +50,19 @@ html, body{
     height:450px;
 }
 
-/* introduce 태그 */
+/* introduce �쒓렇 */
 
-.QA-introduce{
-    text-align: center;
-    margin : 30px;
-    display: flex;
+#people-box-moblie1{
+    text-align: center ;
+   
+    display: flex  ;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-content: center  ;
+    align-items: center  ;
+    margin : 0 auto;
 }
+
+
 
 .white-introduce{
     color:white;
@@ -79,6 +84,7 @@ html, body{
     display: flex;
     flex-direction: row;
     margin : 0 auto;
+    align-items: center;
 }
 
 .people-box{
@@ -86,10 +92,14 @@ html, body{
     font-family: "Noto Sans";
     width:380px;
     height:700px;
+    margin:30px;
 }
 
 .people-image-box{
-    width:380px; height:380px; overflow:hidden;  margin:0 auto;
+    width:380px; 
+    height:380px; 
+    overflow:hidden;  
+    margin:0 auto;
 }
 
 .white-name{
@@ -114,7 +124,7 @@ html, body{
     font-weight: 500;
 }
 
-/* qA 부분 */
+/* qA 遺�遺� */
 
 .question-box{
     display: flex;
@@ -158,13 +168,29 @@ html, body{
 }
 
 footer{
-    text-align: left;
-    color: gray;
+    text-align: left; /* 湲��먮� 以묒븰�� �뺣젹�섍쿋��.*/
+    background-color: black ;
+    color:gray ;
+    font-size: 1rem;
+    position:relative;
+    top:0px;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    padding: 100 px;
 }
-/* header 태그 */
+/* header �쒓렇 */
 
 
 @media screen and (min-device-width: 375px) and (max-device-width: 812px){
+
+    html, body 
+    { 
+        width: 100%;
+        height: 100%;
+        
+    }
+    
 
     .QA-word{
         display: flex;
@@ -178,68 +204,81 @@ footer{
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        gap: 13px;
+        gap: 8px;
         background-color: black;
         margin-top: 0;
-        padding-top: 120px;
+        padding-top: 30px;
     }
     .white-header{
         color:white;
-        font-size: 37px;
+        font-size: 30px;
         font-family: "Noto Sans";
         font-weight: 700;
     }
 
     .orange-header{
-        font-size: 37px;
+        font-size: 30px;
         font-family: "Noto Sans";
         font-weight: 700;
         color: orange;
     }
 
     .image1{
-        width:800px;
-        height:350px;
+        width:500px;
+        height:250px;
     }
 
-    /* introduce 태그 */
+    /* introduce �쒓렇 */
 
     .QA-introduce{
-        text-align: center;
-        margin : 30px;
+        
+        height: 500px;
+        margin-top:5px;
+        margin-bottom : 40px;
         display: flex;
-        flex-direction: row;
+        flex-direction:flex;
         justify-content: center;
-        align-items: center;
-    }
-
-    .white-introduce{
-        color:white;
-        font-size: 40px;
-        font-family: "Noto Sans";
-        font-weight: 700;
-    }
-
-
-    .orange-introduce{
-        font-size: 40px;
-        font-family: "Noto Sans";
-        font-weight: 700;
-        color: orange;
+    
     }
 
     .QA-introduce-people 
     {
         display: flex;
         flex-direction: row;
-        margin : 0 auto;
+        margin:0 auto;
+        padding:0px;
     }
+
+    .white-introduce{
+        color:white;
+        font-size: 30px;
+        font-family: "Noto Sans";
+        font-weight: 700;
+    }
+
+
+    .orange-introduce{
+        font-size: 30px;
+        font-family: "Noto Sans";
+        font-weight: 700;
+        color: orange;
+    }
+
+    #people-box-moblie1{
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;  
+        min-width: 5px;}
+
 
     .people-box{
         text-align: center;
         font-family: "Noto Sans";
-        width:380px;
-        height:700px;
+        width:183.5px;
+        height:400px;
+        margin:5px;
     }
 
     .people-image-box{
@@ -248,31 +287,31 @@ footer{
 
     .white-name{
         color:white;
-        font-size:30px;
-        margin:10px;
+        font-size:25px;
+        margin:8px;
         font-weight: 700;
 
     }
 
     .orange-name{
         color:orange;
-        font-size:30px;
-        margin:10px;
+        font-size:20px;
+        margin:3px;
         font-weight: 700;
 
     }
     .white-describe{
         color:white;
-        font-size:25px;
+        font-size:16.5px;
         margin:20px;
         font-weight: 500;
     }
 
-    /* qA 부분 */
+    /* qA 遺�遺� */
     .question-box{
         display: flex;
         flex-direction: row;
-        margin:10px 40px;
+        margin:5px 40px;
         width:auto;
         height: 170px;
         padding-bottom:15px;
@@ -282,22 +321,23 @@ footer{
     .answer-box{
         margin:0px 40px;
         width:auto;
-        height: 200px;
+        height: 250px;
     }
 
 
     .caption-Q{
         
         color:orange;
-        font-size:80px;
+        font-size:50px;
         font-style: "Noto Sans";
         font-weight:1000;
         margin-right:40px;
+        margin-top:30px;
     }
 
     .question{
         color:orange;
-        font-size:50px;
+        font-size:32px;
         font-style: "Noto Sans";
         font-weight:700;
         padding-top:40px;
@@ -305,7 +345,7 @@ footer{
 
     .answer-white{
         color:white ;
-        font-size:30px;
+        font-size:25px;
         font-style:"Noto Sans";
         font-weight:500;
     }
