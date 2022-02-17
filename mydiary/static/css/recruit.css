@@ -1,7 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200&family=Montserrat:ital,wght@0,100;0,200;0,300;1,100&display=swap");
-* {
-  font-family: "Montserrat";
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200&family=Montserrat:ital,wght@0,100;0,200;0,300;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 
 /* Global */
 :root {
@@ -37,9 +35,10 @@ body {
 /* Typography */
 h1 {
   font-size: var(--font-large);
-  font-weight: var(--weight-bold);
+  font-weight: 700;
   color: white;
   margin: 0 0;
+  font-family: 'Montserrat';
 }
 
 h2 {
@@ -47,6 +46,7 @@ h2 {
   font-weight: var(--weight-semi-bold);
   color: white;
   margin: 8px 0;
+  font-family: 'Noto Sans';
 }
 
 h3 {
@@ -76,12 +76,14 @@ hr {
 
 .content {
   text-align: center;
+  font-size:30px;
 }
 
 .schedule {
   width: 300px;
   margin-left: auto;
   margin-right: auto;
+  font-size:30px;
 }
 footer {
   text-align: left;
@@ -104,6 +106,7 @@ footer {
 .text {
   display: table-cell;
   text-align: left;
+
 }
 
 .sub-title {
@@ -126,7 +129,7 @@ footer {
 .schedule {
   display: table;
   margin: 0 auto;
-  width: 230px;
+  width: 400px;
 }
 
 .schedule-date {
@@ -158,7 +161,20 @@ span.list-bullet {
   height: 80px;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (min-device-width: 375px) and (max-device-width: 812px){
+
+  h1 {
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+    margin: 0 auto;
+    font-family: 'Montserrat';
+  }
+
+  .nav-item {
+    font-size: 20px;
+  }
+
   hr {
     margin-bottom: 0px;
   }
@@ -178,6 +194,7 @@ span.list-bullet {
 
   .text {
     text-align: center;
+    font-family: 'Montserrat';
   }
 
   h1 {
@@ -188,17 +205,28 @@ span.list-bullet {
     padding-left: 20px;
     padding-right: 20px;
   }
-
   .textbox {
     margin-top: 50px;
     margin-bottom: 30px;
+    font-size:20px;
   }
 
-  .schedule {
-    margin-bottom: 50px;
-  }
 
   .contents {
     margin-bottom: 70px;
+  }
+
+
+  .content {
+    text-align: center;
+    font-size:15px;
+  }
+  
+  .schedule {
+    width: 300px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:15px;
   }
 }

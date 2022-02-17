@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200&family=Montserrat:ital,wght@0,100;0,200;0,300;1,100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 
-*{
-    font-family: 'Montserrat', 'Noto Sans';
-}
+
 
 html, body{
     margin: 0;
@@ -13,10 +11,19 @@ html, body{
 }
 
 .font-apply{
-    font-family: 'Montserrat', 'Noto Sans';
+    font-family:'Noto Sans';
     font-weight: 400;
 }
 
+.for-new-lion-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 13px;
+    background-color: black;
+    margin: 0 auto;
+}
 
 
 #body-wrapper{
@@ -115,21 +122,21 @@ html, body{
     .for-new-lion-header{
         display: flex;
         flex-direction: row;
-        justify-content: flex-start;
+        justify-content: center;
         align-items: center;
-        gap: 13px;
+        gap: 40px;
         background-color: black;
-        margin-top: 0;
+        padding: 30px 25px;
     }
     .white-header{
-        font-size: 37px;
+        font-size: 27px;
     }
     .headers{
         display: block;
         gap: 15px;
     }
     .orange-header{
-        font-size: 37px;
+        font-size: 27px;
         color: orange;
     }
     .indent{
@@ -155,10 +162,11 @@ html, body{
 .for-new-lion-header{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
+    gap: 40px;
     background-color: black;
-    margin-top: 0;
+    padding: 30px 25px;
 }
 
 .header-text{
@@ -205,6 +213,8 @@ html, body{
     justify-content: center;
     align-items: center;
     gap: 50px;
+    font-weight:700;
+    font-family:'Montserrat';
 }
 
 mark.orange {

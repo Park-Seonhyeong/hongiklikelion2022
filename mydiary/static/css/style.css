@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200&family=Montserrat:ital,wght@0,100;0,200;0,300;1,100&display=swap');
-*{
-    font-family: 'Montserrat';
-}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+
 #home_img1{background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/a.jpg);}
 #home_img2{background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/b.jpg);}
 #home_img3{background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/c.jpg);}
@@ -70,10 +70,18 @@
     }
 
 
-.sns-img{
+.sns-img_insta{
     margin-right: 10px;
-    width:4rem;
-    height: 4rem;
+    margin-top : 20px;
+    width:60px;
+    height:60px;
+}
+
+.sns-img_face{
+    margin-right: 10px;
+    margin-top : 20px;
+    width:80px;
+    height: 80px;
 }
 
 .sns-wrap{
@@ -87,12 +95,13 @@
     float: right;
     text-align: right;
     position: absolute;
-    bottom:14rem;
-    right:8rem;
+    bottom:15rem;
+    right:8.5rem;
     color: white;
 }
 .meotsa h3{
-    font-size: 1rem;
+    font-family: 'Noto Sans';
+    font-size: 1.2rem;
 }
 footer{
     text-align: left; /* 글자를 중앙에 정렬하겠다.*/
