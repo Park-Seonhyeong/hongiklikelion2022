@@ -10,11 +10,12 @@
       <h2>
           RECRUIT 2022 10TH<BR>2022.02.21~2022.03.13
       </h2>
-      <button class="button1" type="button" class="btn btn-warning">10기 지원하기</button>
+      <button class="button1" type="button" class="btn btn-warning" onclick="location.href='https://forms.gle/p7TS6PVjkRB3r3Cx8' ">10기 지원하기</button>
       <section class='special-day'>
         <div class='date-box'>
           <p>지원 마감까지<br></p>
             <p id='valentine' class='days-left'></p>
+            <p id="dday-view"></p>
         </div>
     </section>
     <script
@@ -23,7 +24,7 @@
   crossorigin="anonymous"></script>
     <script id="'d-day">
       function counter(){
-        var dday = new Date("March 13,2022,23:59:59").getTime();
+        var dday = new Date("Feburary 18,2022,14:58:30").getTime();
         setInterval(function(){
           var now = new Date();
           var distance = dday - now;
