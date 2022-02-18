@@ -86,8 +86,7 @@ body{
     flex-direction: row;
     margin : 0 auto;
     align-items: center;
-    font-family: "Noto Sans";
-}
+    font-family: "Noto Sans";}
 
 .people-box{
     text-align: center;
@@ -188,7 +187,7 @@ footer{
 /* header �쒓렇 */
 
 
-@media screen and (min-device-width: 375px) and (max-device-width: 812px){
+@media screen and (min-device-width: 280px) and (max-device-width: 850px){
 
     html, body 
     { 
