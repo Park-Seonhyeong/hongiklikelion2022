@@ -315,6 +315,7 @@ footer{
     /* qA 遺�遺� */
     .question-box{
         display: flex;
+        justify-content: center;
         flex-direction: row;
         margin:5px 40px;
         width:auto;
