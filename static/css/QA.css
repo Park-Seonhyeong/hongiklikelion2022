@@ -314,7 +314,7 @@ footer{
 
     /* qA 遺�遺� */
     .question-box{
-        display: flex;
+        display: block;
 /*         justify-content: center; */
         flex-direction: row;
         margin:5px 40px;
@@ -322,6 +322,7 @@ footer{
         height: 170px;
         padding-bottom:15px;
         border-top: solid orange 5px;
+        margin: 0 auto;
     }
 
     .answer-box{
