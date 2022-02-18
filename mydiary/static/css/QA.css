@@ -187,7 +187,7 @@ footer{
 /* header �쒓렇 */
 
 
-@media screen and (min-device-width: 280px) and (max-device-width: 850px){
+@media (min-width: 280px) and (max-width: 1024px) and (min-height:600px) and (max-width:1180px) {
 
     html, body 
     { 
