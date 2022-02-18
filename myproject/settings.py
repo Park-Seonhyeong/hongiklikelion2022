@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-**-qi49kh%!xm)&h57%jj%p01m(4fjsdk%c90-b45t(gwe_uoj
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['hongiklikelion.pythonanywhere.com']
+ALLOWED_HOSTS = ['hongiklikelion10.pythonanywhere.com']
 
 AUTH_USER_MODEL='accounts.CustomUser'
 
