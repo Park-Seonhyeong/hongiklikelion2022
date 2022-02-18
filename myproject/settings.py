@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-**-qi49kh%!xm)&h57%jj%p01m(4fjsdk%c90-b45t(gwe_uoj'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['hongiklikelion.pythonanywhere.com']
 
 AUTH_USER_MODEL='accounts.CustomUser'
 
