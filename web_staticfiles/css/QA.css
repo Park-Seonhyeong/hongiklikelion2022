@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200&family=Montserrat:ital,wght@0,100;0,200;0,300;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+
+
+body{
+    background-color: black;
+    position:static;
+  }
+
+
+
+.QA-word{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.QA-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-color: black;
+    padding: 30px 25px;
+}
+.white-header{
+    color:white;
+    font-size: 60px;
+    font-family: "Noto Sans";
+    font-weight: 700;
+}
+
+.nav-item{
+    font-size: 30px;
+    font-weight: 300!important;
+    font-family: 'Montserrat';
+}
+
+.orange-header{
+    font-size: 60px;
+    font-family: "Noto Sans";
+    font-weight: 700;
+    color: orange;
+}
+
+.image1{
+    width:950px;
+    height:450px;
+}
+
+/* introduce �쒓렇 */
+
+#people-box-moblie1{
+    text-align: center ;
+    font-family: "Noto Sans";
+    display: flex  ;
+    flex-direction: row;
+    justify-content: center  ;
+    align-items: center  ;
+    margin : 0 auto;
+}
+
+
+
+.white-introduce{
+    color:white;
+    font-size: 40px;
+    font-family: "Noto Sans";
+    font-weight: 700;
+}
+
+
+.orange-introduce{
+    font-size: 40px;
+    font-family: "Noto Sans";
+    font-weight: 700;
+    color: orange;
+}
+
+.QA-introduce-people 
+{
+    display: flex;
+    flex-direction: row;
+    margin : 0 auto;
+    align-items: center;
+    font-family: "Noto Sans";}
+
+.people-box{
+    text-align: center;
+    font-family: "Noto Sans";
+    width:380px;
+    height:700px;
+    margin:30px;
+}
+
+.people-image-box{
+    width:380px; 
+    height:380px; 
+    overflow:hidden;  
+    margin:0 auto;
+}
+
+.white-name{
+    color:white;
+    font-size:30px;
+    margin:10px;
+    font-weight: 700;
+
+}
+
+.orange-name{
+    color:orange;
+    font-size:30px;
+    margin:10px;
+    font-weight: 700;
+    font-family: "Noto Sans";
+
+}
+.white-describe{
+    color:white;
+    font-size:25px;
+    margin:20px;
+    font-weight: 500;
+    font-family: "Noto Sans";
+}
+
+/* qA 遺�遺� */
+
+.question-box{
+    display: flex;
+    flex-direction: row;
+    margin:10px 40px;
+    width:auto;
+    height: 170px;
+    padding-bottom:15px;
+    border-top: solid orange 5px;
+    font-family: "Noto Sans";
+}
+
+.answer-box{
+    margin:0px 40px;
+    width:auto;
+    height: 200px;
+    font-family: "Noto Sans";
+}
+
+
+.caption-Q{
+    
+    color:orange;
+    font-size:80px;
+    font-family: "Noto Sans";
+    font-weight:1000;
+    margin-right:40px;
+}
+
+.question{
+    color:orange;
+    font-size:50px;
+    font-family: "Noto Sans";
+    font-weight:700;
+    padding-top:40px;
+}
+
+.answer-white{
+    color:white ;
+    font-size:30px;
+    font-family: "Noto Sans";
+    font-weight:500;
+}
+
+footer{
+    text-align: left; /* 湲��먮� 以묒븰�� �뺣젹�섍쿋��.*/
+    background-color: black ;
+    color:gray ;
+    font-size: 1rem;
+    position:relative;
+    top:0px;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    padding: 100 px;
+}
+/* header �쒓렇 */
+
+
+@media (min-width: 280px) and (max-width: 1024px) and (min-height:600px) and (max-width:1180px) {
+
+    html, body 
+    { 
+        width: 100%;
+        height: 100%;
+        
+    }
+    
+
+    .QA-word{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .QA-header{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        background-color: black;
+        margin-top: 0;
+        padding-top: 30px;
+    }
+    .white-header{
+        color:white;
+        font-size: 30px;
+        font-family: "Noto Sans";
+        font-weight: 700;
+    }
+
+    .orange-header{
+        font-size: 30px;
+        font-family: "Noto Sans";
+        font-weight: 700;
+        color: orange;
+    }
+
+    .image1{
+        width:500px;
+        height:250px;
+    }
+
+    /* introduce �쒓렇 */
+
+    .QA-introduce{
+        
+        height: 500px;
+        margin-top:5px;
+        margin-bottom : 40px;
+        display: flex;
+        flex-direction:flex;
+        justify-content: center;
+    
+    }
+
+    .QA-introduce-people 
+    {
+        display: flex;
+        flex-direction: row;
+        margin:0 auto;
+        padding:0px;
+    }
+
+    .white-introduce{
+        color:white;
+        font-size: 30px;
+        font-family: "Noto Sans";
+        font-weight: 700;
+    }
+
+
+    .orange-introduce{
+        font-size: 30px;
+        font-family: "Noto Sans";
+        font-weight: 700;
+        color: orange;
+    }
+
+    #people-box-moblie1{
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;  
+        min-width: 5px;}
+
+
+    .people-box{
+        text-align: center;
+        font-family: "Noto Sans";
+        width:183.5px;
+        height:400px;
+        margin:5px;
+    }
+
+    .people-image-box{
+        width:200px; height:200px; overflow:hidden;  margin:0 auto;
+    }
+
+    .white-name{
+        color:white;
+        font-size:25px;
+        margin:8px;
+        font-weight: 700;
+
+    }
+
+    .orange-name{
+        color:orange;
+        font-size:20px;
+        margin:3px;
+        font-weight: 700;
+
+    }
+    .white-describe{
+        color:white;
+        font-size:16.5px;
+        margin:20px;
+        font-weight: 500;
+    }
+
+    /* qA 遺�遺� */
+    .question-box{
+        display: flex;
+        flex-direction: row;
+        margin:5px 40px;
+        width:auto;
+        height: 170px;
+        padding-bottom:15px;
+        border-top: solid orange 5px;
+    }
+
+    .answer-box{
+        margin:0px 40px;
+        width:auto;
+        height: 250px;
+    }
+
+
+    .caption-Q{
+        
+        color:orange;
+        font-size:50px;
+        font-style: "Noto Sans";
+        font-weight:1000;
+        margin-right:40px;
+        margin-top:30px;
+    }
+
+    .question{
+        color:orange;
+        font-size:32px;
+        font-style: "Noto Sans";
+        font-weight:700;
+        padding-top:40px;
+    }
+
+    .answer-white{
+        color:white ;
+        font-size:25px;
+        font-style:"Noto Sans";
+        font-weight:500;
+    }
+}
