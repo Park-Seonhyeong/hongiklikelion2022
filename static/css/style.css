@@ -264,7 +264,6 @@ body {
     margin: 0;
     width: 40%;
     padding: 30px;
-    padding-top: 20px;
 }
 .main-text h1 {
     font-size: 285%;
@@ -287,7 +286,6 @@ body {
         margin: 0;
         width: 40%;
         padding: 30px;
-        padding-top:20px;
     }
     .main-text h1 {
         font-size: 1% !important;
